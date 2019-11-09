@@ -4,25 +4,17 @@ export default class header extends Component {
 	render() {
 		return (
 			<div>
-				<nav className="navbar navbar-light bg-light">
-					<Link to="/" className="navbar-brand">
-						Home
-					</Link>
-					<Link to="/about">About</Link>
-					<form className="form-inline">
-						<input
-							className="form-control mr-sm-2"
-							type="search"
-							placeholder="Search"
-							aria-label="Search"
-						/>
-						<button
-							className="btn btn-outline-success my-2 my-sm-0"
-							type="submit"
-						>
-							Search
-						</button>
-					</form>
+				<nav>
+					<div class="nav-wrapper">
+						<Link to="/" class="brand-logo">
+							Game Arena
+						</Link>
+						<ul id="nav-mobile" class="right hide-on-med-and-down">
+							<li>
+								<Link to="/about">About</Link>
+							</li>
+						</ul>
+					</div>
 				</nav>
 			</div>
 		);
