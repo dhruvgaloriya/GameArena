@@ -51,7 +51,7 @@ export default class home extends Component {
 				<div className="container">
 					<div class="row">
 						{this.state.data.map(item => (
-							<div class="col s12 m4" style={{ marginTop: "10px" }}>
+							<div class="col s12 m6" style={{ marginTop: "10px" }}>
 								<div class="card">
 									<div class="card-content">
 										<h6 class="card-title">
